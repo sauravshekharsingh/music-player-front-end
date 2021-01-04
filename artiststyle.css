@@ -1,0 +1,145 @@
+.artist-banner{
+    display: flex;
+    background-color:  #312382;
+}
+
+.artist-banner .artist-image{
+    width: 400px;
+    height: 400px;
+}
+
+.artist-banner .artist-desc{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.artist-name h3{
+    color: grey;
+}
+
+.artist-desc .artist-titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-desc .about-artist{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-banner .artist-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-tracks .play-button{
+    background-image: linear-gradient(to right, #0a4caf, #4b4ec3, #7a4bd3, #a941dd, #d729e1);
+    padding: 10px;
+    width: 140px;
+    margin-right: 40px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.play-tracks .play-button:hover{
+    cursor: pointer;
+}
+
+/* Media Queries Artist Banner Section Style */
+
+@media only screen and (max-width: 900px){
+
+    .artist-desc > div{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .about-artist p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .play-tracks .play-button{
+        margin-bottom: 10px;
+    }
+
+    .artist-desc .artist-titles{
+        flex-direction: column;
+    }
+}
+
+/* Artist Tracks List Section */
+
+.track-listitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:  #312382;
+}
+
+.track-listitem .track-desc{
+    display: flex;
+    align-items: center;
+}
+
+.track-listitem .track-desc > a{
+    display: flex;
+    align-items: center;
+}
+
+.track-listitem .track-desc img{
+    width: 60px;
+    margin: 0 20px;
+    border-radius: 4px;
+}
+
+.track-listitem .like-option{
+    display: flex;
+}
+
+.track-listitem .like-option a{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.track-listitem .like-option h1{
+    font-size: 24px;
+}
+
+.track-listitem .like-option img{
+    width: 24px;
+    height: 24px;
+}
+
+/* Similar Song Section Styles */
+
+.similar-song{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin: 18px 0;
+}
+
+.similar-song .similar-song-desc{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.similar-song .song-option{
+    text-align: right;
+}
+
+.similar-song-desc .similar-album-img{
+    width: 80px;
+    margin-right: 10px;
+}
