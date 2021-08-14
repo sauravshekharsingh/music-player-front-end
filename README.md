@@ -1,2 +1,4 @@
-# music-player-front-end
-Front End of a music player built using HTML and CSS
+# Music Player Front End
+
+Music player frontend built using HTML and CSS.
+Link - https://sauravshekharsingh.github.io/music-player-front-end/
